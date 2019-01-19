@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- Site's own JavaScript -->
+	<script src="/users/shanasia/Dropbox/Mac_2014/Personal Documents/Personal Website/HTML/script.js"></script>
+	<head>
+	<title>Shanasia Sylman's Online Portfolio</title>
+	</head>
+	<style>
+	html,body,h1,h2,h3,h4,h5,h6 {font-family: "Gotham", sans-serif}
+	</style>
+	<body>
+		<!-- Source: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_portfolio2&stacked=h -->
+		<!-- Sidebar/menu -->
+		<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+			<h3 class="w3-padding-64 w3-center"><b>SHANASIA<br>SYLMAN</b></h3>
+			<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+			<a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+			<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+			<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+		</nav>
+
+		<!-- Top menu on small screens -->
+		<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+		  <span class="w3-left w3-padding">SHANASIA SYLMAN</span>
+		  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+		</header>
+
+		<!-- Overlay effect when opening sidebar on small screens -->
+		<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay">
+		</div>
+
+		<!-- Source: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_photo&stacked=h -->
+		<!-- PAGE CONTENT! -->
+		<div class="w3-content" style="max-width:1500px">
+
+			<!-- Photo Grid -->
+			<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+			  <div class="w3-third">
+			    <img src="/w3images/rocks.jpg" style="width:100%">
+			    <img src="/w3images/sound.jpg" style="width:100%">
+			    <img src="/w3images/woods.jpg" style="width:100%">
+			    <img src="/w3images/rock.jpg" style="width:100%">
+			    <img src="/w3images/nature.jpg" style="width:100%">
+			    <img src="/w3images/mist.jpg" style="width:100%">
+			  </div>
+
+			  <div class="w3-third">
+			    <img src="/w3images/coffee.jpg" style="width:100%">
+			    <img src="/w3images/bridge.jpg" style="width:100%">
+			    <img src="/w3images/notebook.jpg" style="width:100%">
+			    <img src="/w3images/london.jpg" style="width:100%">
+			    <img src="/w3images/rocks.jpg" style="width:100%">
+			    <img src="/w3images/avatar_g.jpg" style="width:100%">
+			  </div>
+
+			  <div class="w3-third">
+			    <img src="/w3images/mist.jpg" style="width:100%">
+			    <img src="/w3images/workbench.jpg" style="width:100%">
+			    <img src="/w3images/gondol.jpg" style="width:100%">
+			    <img src="/w3images/skies.jpg" style="width:100%">
+			    <img src="/w3images/lights.jpg" style="width:100%">
+			    <img src="/w3images/workshop.jpg" style="width:100%">
+			  </div>
+			</div>
+
+		<!-- End Page Content -->
+		</div>
+
+	</body>
+</html>
