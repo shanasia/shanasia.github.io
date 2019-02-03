@@ -3,11 +3,29 @@
 */
 
 body {
-	font-family: "Montserrat", san-serif;
-	background-color: #ffffff; /*#c7e1ff;*/
+	font-family: "Montserrat", sans-serif;
+	background-color: #ffffff;
 	font-size: 13px;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 body, html {
 	height: 100%
+}
+h1, h2, h3, h4 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff
+}
+h1 {
+	/*font-style: italic;*/
+	/*font-weight: bold;*/
+	font-size: 64px;
+}
+.w3-display-middle {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%)
 }
