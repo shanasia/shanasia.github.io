@@ -25,11 +25,12 @@ h1 {
 hr{
 	margin:auto;
 	width:40%;
-	color:#000000
+	color:#ffffff
 }
 p{
 	text-align:center;
-	font-size: 18px /* w3-large */
+	font-size: 18px; /* w3-large */
+	color:#ffffff
 }
 
 .w3-display-middle {
