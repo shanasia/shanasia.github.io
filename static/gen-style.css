@@ -20,8 +20,18 @@ h1, h2, h3, h4 {
 h1 {
 	/*font-style: italic;*/
 	/*font-weight: bold;*/
-	font-size: 64px;
+	font-size: 64px; /* w3-jumbo */
 }
+hr{
+	margin:auto;
+	width:40%;
+	color:#000000
+}
+p{
+	text-align:center;
+	font-size: 18px /* w3-large */
+}
+
 .w3-display-middle {
 	position:absolute;
 	top:50%;
