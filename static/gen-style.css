@@ -50,7 +50,7 @@ p{
 
 .bg {
   /* The image used */
-  background-image: "static/1760.tif";
+  background-image: url("static/1760.tif");
 
   /* Full height */
   height: 100%;
