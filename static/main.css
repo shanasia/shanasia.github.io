@@ -1,52 +1,41 @@
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body, html {
-  height: 100%
-}
+    html {
+    font-family: 'Red Hat Text', Arial, sans-serif;
+    min-width: 1040px;
+    margin: 0;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
 
-.bgimg {
-  /* Background color light gray? */
-  background-color: #333333;
-  /* Full-screen */
-  height: 100%;
-  /* Center the background image */
-  background-position: center;
-  /* Scale and zoom in the image */
-  background-size: cover;
-  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-  position: relative;
-  /* Add a white text color to all elements inside the .bgimg container */
-  color: white;
-  /* Add a font */
-  font-family: "Libre Franklin", san-serif;
-  /* Set the font-size to 25 pixels */
-  font-size: 25px;
-}
+    body {
+        text-align: center;
+    }
 
-/* Position text in the top-left corner */
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+    i {
+        color: black; /*#50c3b2; miami teal*/
+    }
 
-/* Position text in the bottom-left corner */
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+    .subtitle {
+        font-weight: 400;
+        color: darkgray;
+        text-align: center;
+    }
 
-/* Position text in the middle */
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+    .justify {
+        text-align: justify;
+    }
 
-/* Style the <hr> element */
-hr {
-  margin: auto;
-  width: 40%;
-}
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 100%;
+    }
+
+    #content {
+        width: 33%;
+        height: 100%;
+        margin: auto;
+        padding: 10px;
+    }
