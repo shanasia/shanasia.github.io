@@ -1,43 +1,61 @@
     html {
-    font-family: 'Red Hat Text', Arial, sans-serif;
-    min-width: 1040px;
-    margin: 0;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+        font-family: 'Red Hat Text', Arial, sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
     }
 
-    body {
-        text-align: center;
-    }
-
+    /* Change icons to miami teal color */
     i {
-        color: black; /*#50c3b2; miami teal*/
+        color: #50c3b2; /* miami teal*/
     }
 
+    /* Change line break to 3px width and miami teal color */
+    hr {
+        height: 3px;
+        background-color: #50c3b2;
+        border: none;
+    }
+
+    /* Subtitle text for image */
     .subtitle {
         font-weight: 400;
         color: darkgray;
         text-align: center;
     }
 
-    .justify {
-        text-align: justify;
+    /* Positions element in the center of the screen */
+    .middleOfScreen {
+        margin: auto;
+        width: 60%;
     }
 
-    .center {
+    /* Centers image in center of element */
+    .centerImage {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        width: 100%;
+        margin: auto;
+        width: 50%;
     }
 
-    /* Position text in the middle */
-    .middle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    /* Centers icons in center of element */
+    .centerIcons {
+        display: block;
         text-align: center;
+    }
+
+    /* Float to the right of the screen while still being in the same line */
+    .inlineRight{
+        float: right;
+        margin: 5px 0px;
+    }
+
+    /* Float to the left of the screen while still being in the same line */
+    .inlineLeft{
+        float: left;
+        margin: 5px 0px;
+    }
+
+    /* Clear element after floated inline element(s) and add buffer bottom margin */
+    .content {
+        clear: both;
+        margin: 0px 0px 20px;
     }
