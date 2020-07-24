@@ -7,13 +7,18 @@
     /* Change icons to miami teal color */
     i {
         color: #50c3b2; /* miami teal*/
+        width: 15%;
     }
 
     /* Change line break to 3px width and miami teal color */
-    hr {
+    hr.resume {
         height: 3px;
         background-color: #50c3b2;
         border: none;
+    }
+
+    span {
+        font-size: 25px;
     }
 
     /* Subtitle text for image */
@@ -33,7 +38,7 @@
     .centerImage {
         display: block;
         margin: auto;
-        width: 50%;
+        width: 60%;
     }
 
     /* Centers icons in center of element */
@@ -58,4 +63,34 @@
     .content {
         clear: both;
         margin: 0px 0px 20px;
+    }
+
+    p.quote {
+        text-align: right; /*right align text*/
+        font-style: italic; /*italicize*/
+        margin-left: 33%;
+    }
+
+    p.center {
+        text-align: center;
+    }
+
+    #quote2 {
+        margin-left: 47%;
+
+    }
+
+    #quote3 {
+        margin-left: 20%;
+
+    }
+
+    #quote5 {
+        margin-left: 30%;
+
+    }
+
+    #quote8 {
+        margin-left: 25%;
+
     }
