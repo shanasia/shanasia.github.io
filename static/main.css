@@ -1,12 +1,48 @@
     html {
-        font-family: 'Red Hat Text', Arial, sans-serif;
+        font-family: 'Red Hat Text', 'Microsoft Sans Serif', Arial, sans-serif;
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
     }
 
+    .bg {
+      /* The image used */
+      background-image: url("/static/img/DSC_0332.jpg");
+      height: 100vh;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /* Style the navigation bar */
+    .navbar {
+      width: 50%;
+      overflow: auto;
+    }
+
+    /* Navbar links */
+    .navbar a {
+      float: left;
+      text-align: center;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    /* Navbar links on mouse-over */
+    .navbar i:hover {
+      color: #000;
+    }
+
+    /* Current/active navbar link */
+    i.active {
+      color: #50c3b2;
+    }
+
     /* Change icons to miami teal color */
     i {
-        color: #50c3b2; /* miami teal*/
+        color: white; /* #50c3b2;  miami teal*/
         width: 15%;
     }
 
@@ -17,15 +53,31 @@
         border: none;
     }
 
+    .greeting {
+        color: white;
+        padding: 10px;
+    }
+    
+    p.greeting {
+        color: white;
+        width: 50%;
+        text-align: justify;
+        text-align-last: right;
+    }
+
     span {
         font-size: 25px;
     }
 
     /* Subtitle text for image */
     .subtitle {
-        font-weight: 400;
-        color: darkgray;
-        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        margin: 10px;
+        font-weight: 500;
+        color: white;
+        text-align: left;
     }
 
     /* Positions element in the center of the screen */
@@ -94,3 +146,4 @@
         margin-left: 25%;
 
     }
+
