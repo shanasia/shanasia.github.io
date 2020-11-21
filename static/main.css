@@ -6,7 +6,7 @@
 
     .bg {
       /* The image used */
-      background-image: url("/static/img/DSC_0332.jpg");
+      background-image: url("static/img/DSC_0332.jpg");
       height: 100vh;
       /* Center and scale the image nicely */
       background-position: center;
