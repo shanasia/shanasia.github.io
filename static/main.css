@@ -1,149 +1,215 @@
-    html {
-        font-family: 'Red Hat Text', 'Microsoft Sans Serif', Arial, sans-serif;
-        -ms-text-size-adjust: 100%;
-        -webkit-text-size-adjust: 100%;
-    }
+/**************************************************** Universal ****************************************************/
 
-    .bg {
-      /* The image used */
-      background-image: url("/static/img/DSC_0332.JPG");
-      height: 100vh;
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+/* Set Red Hat Text as universal font */
+html { 
+    font-family: 'Red Hat Text', 'Microsoft Sans Serif', Arial, sans-serif;
+    -ms-text-size-adjust: 100%; /* IE 10 correction? */
+    -webkit-text-size-adjust: 100%; /* Mozilla correction? */
+}
 
-    /* Style the navigation bar */
-    .navbar {
-      width: 50%;
-      overflow: auto;
-    }
+/* Makes sure padding and border are included in total widths and heights of elements */
+*{
+    box-sizing: border-box;
+}
 
-    /* Navbar links */
-    .navbar a {
-      float: left;
-      text-align: center;
-      padding: 12px;
-      color: white;
-      text-decoration: none;
-      font-size: 17px;
-    }
+/* Create navigation bar (navbar) */
+.navbar {
+    width: 100%; /* makes navbar size of screen */
+    /*overflow: auto;*/ /* ??? */
+    text-align: center; /* centers items in navbar */
+    /*border: solid;*/ /* For testing */
+}
 
-    /* Navbar links on mouse-over */
-    .navbar i:hover {
-      color: #000;
-    }
+/* Style Icons (i) within navbar*/
+.navbar i {
+    color: #000; /* Black */
+    width: 15%; /* Relative Size */
+}
 
-    /* Current/active navbar link */
-    i.active {
-      color: #50c3b2;
-    }
+/* Mouse hover effect for icons in navbar*/
+.navbar i:hover {
+    color: #50c3b2; /* Turns miami teal */ 
+}
 
-    /* Change icons to miami teal color */
-    i {
-        color: white; /* #50c3b2;  miami teal*/
-        width: 15%;
-    }
+/* Active icon in navbar is miami teal */
+i.active {
+    color: #50c3b2;
+}
 
-    /* Change line break to 3px width and miami teal color */
-    hr.resume {
-        height: 3px;
-        background-color: #50c3b2;
-        border: none;
-    }
+/* Specify the size of the span element */
+span {
+    font-size: 25px;
+}
 
-    .greeting {
-        color: white;
-        padding: 10px;
-    }
-    
-    p.greeting {
-        color: white;
-        width: 50%;
-        text-align: justify;
-        text-align-last: right;
-    }
+/* Prevents overlap of navbar and title boxes */
+.navbar:after{
+    content: "";
+    clear: both;
+}
 
-    span {
-        font-size: 25px;
-    }
+/* Style the title for each page */
+.title {
+    width: 100%;
+    float: right;
+    text-align: right;
+    padding: 0px 50px;
+    /*border: solid;*/ /* For testing */
+}
 
-    /* Subtitle text for image */
-    .subtitle {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        margin: 10px;
-        font-weight: 500;
-        color: white;
-        text-align: left;
-    }
+/* Prevents overlap of navbar and title boxes */
+.title:after{
+    content: "";
+    clear: both;
+}
 
-    /* Positions element in the center of the screen */
-    .middleOfScreen {
-        margin: auto;
-        width: 60%;
-    }
+/* Positions element in the center of the screen */
+.middleOfScreen {
+    margin: auto;
+    width: 60%;
+    /*border: solid;*/ /* For testing */
+}
 
-    /* Centers image in center of element */
-    .centerImage {
-        display: block;
-        margin: auto;
-        width: 60%;
-    }
+/**************************************************** Homepage ****************************************************/
 
-    /* Centers icons in center of element */
-    .centerIcons {
-        display: block;
-        text-align: center;
-    }
+/* Change icons to miami teal color */
+.bg-home {
+    background-image: url("/Users/shanasia/Dropbox/04_Working/PersonalWebsite/_images/DSC_0332.jpg");
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    /* Float to the right of the screen while still being in the same line */
-    .inlineRight{
-        float: right;
-        margin: 5px 0px;
-    }
+/* Icons are white on homepage */
+i.home {
+    color: white;
+}
 
-    /* Float to the left of the screen while still being in the same line */
-    .inlineLeft{
-        float: left;
-        margin: 5px 0px;
-    }
+/* Text on homepage is white */
+div.home {
+    color: white;
+}
 
-    /* Clear element after floated inline element(s) and add buffer bottom margin */
-    .content {
-        clear: both;
-        margin: 0px 0px 20px;
-    }
+p.greeting {
+    width: 55%;
+    padding: 0px 50px;
+    text-align: justify;
+    text-align-last: right;
+}
 
-    p.quote {
-        text-align: right; /*right align text*/
-        font-style: italic; /*italicize*/
-        margin-left: 33%;
-    }
+/* Subtitle text for image */
+.subtitle {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+}
 
-    p.center {
-        text-align: center;
-    }
+/**************************************************** Resume ****************************************************/
 
-    #quote2 {
-        margin-left: 47%;
+/* Change line break to 3px width and miami teal color */
+hr.resume {
+    height: 3px;
+    background-color: #50c3b2;
+    border: none;
+}
 
-    }
+/* Float to the right of the screen while still being in the same line */
+.inlineRight{
+    float: right;
+    margin: 5px 0px;
+}
 
-    #quote3 {
-        margin-left: 20%;
+/* Float to the left of the screen while still being in the same line */
+.inlineLeft{
+    float: left;
+    margin: 5px 0px;
+}
 
-    }
+/**************************************************** Projects ****************************************************/
 
-    #quote5 {
-        margin-left: 30%;
+.bg-projects {
+    background-image: url("/Users/shanasia/Dropbox/04_Working/PersonalWebsite/_images/DSC_0096.jpg");
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    }
+.flex-container {
+    display: flex;
+    width: 100%;
+    border-color: #50c3b2;
+    float: left;
+}
 
-    #quote8 {
-        margin-left: 25%;
+.flex-container > div {
+    background-color: #50c3b280; /* #rrggbbaa; -80 = 50% transparency */ /* https://css-tricks.com/8-digit-hex-codes/ */
+    border: solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0px 100px; /* change this as more projects get added */
+    text-align: center;
+}
 
-    }
+/* Center text in bubble */
+div.project{
+    position: relative;
+    top: 50%;
+    height: 100px;
+    margin-top: -1.5em;
+}
 
+div.project > a:link, a:visited {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* Missing @media to wrap div's on small screens */
+
+/* --------------------------- DSC Letter --------------------------- */
+
+/* Clear element after floated inline element(s) and add buffer bottom margin */
+.content {
+    clear: both;
+    margin: 0px 0px 20px;
+}
+
+p.quote {
+    text-align: right; /*right align text*/
+    font-style: italic; /*italicize*/
+    margin-left: 33%;
+}
+
+p.center {
+    text-align: center;
+}
+
+#quote2 {
+    margin-left: 47%;
+
+}
+
+#quote3 {
+    margin-left: 20%;
+
+}
+
+#quote5 {
+    margin-left: 30%;
+
+}
+
+#quote8 {
+    margin-left: 25%;
+
+}
+
+/* --------------------------- Thesis --------------------------- */
