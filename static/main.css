@@ -73,7 +73,7 @@ span {
 
 /* Change icons to miami teal color */
 .bg-home {
-    background-image: url("/Users/shanasia/Dropbox/04_Working/PersonalWebsite/_images/DSC_0332.jpg");
+    background-image: url("/static/img/DSC_0332.jpg");
     height: 100vh;
     /* Center and scale the image nicely */
     background-position: center;
@@ -133,7 +133,7 @@ hr.resume {
 /**************************************************** Projects ****************************************************/
 
 .bg-projects {
-    background-image: url("/Users/shanasia/Dropbox/04_Working/PersonalWebsite/_images/DSC_0096.jpg");
+    background-image: url("/static/img/DSC_0096.jpg");
     height: 100vh;
     /* Center and scale the image nicely */
     background-position: center;
