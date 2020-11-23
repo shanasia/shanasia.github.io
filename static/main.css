@@ -166,11 +166,13 @@ div.project{
     margin-top: -1.5em;
 }
 
-div.project > a:link, a:visited {
-    color: white;
+div.project a:link, a:visited {
+/*    color: white;*/
     font-size: 25px;
     text-decoration: none;
 }
+
+/* Missing @media to wrap div's on small screens */
 
 /* Missing @media to wrap div's on small screens */
 
@@ -213,3 +215,35 @@ p.center {
 }
 
 /* --------------------------- Thesis --------------------------- */
+
+p.toc{
+  
+}
+
+.thesis-formality{
+    
+}
+
+/* Double-spacing for text to account for footnotes */
+.thesis-spacing{
+    line-height: 2.5;
+    text-align:justify;
+}
+
+.thesis-footnotes{
+    color: gray;
+}
+
+.thesis-footer-navbar{
+    width: 100%;
+}
+
+.thesis-next{
+    float: right;
+}
+
+
+.thesis-next:after{
+    content: "";
+    clear: both;
+}
