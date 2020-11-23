@@ -232,6 +232,7 @@ p.toc{
 
 .thesis-footnotes{
     color: gray;
+    line-height: 1;
 }
 
 .thesis-footer-navbar{
