@@ -216,12 +216,9 @@ p.center {
 
 /* --------------------------- Thesis --------------------------- */
 
-p.toc{
-  
-}
-
+/**/
 .thesis-formality{
-    
+    text-align: center;
 }
 
 /* Double-spacing for text to account for footnotes */
@@ -232,7 +229,7 @@ p.toc{
 
 .thesis-footnotes{
     color: gray;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 .thesis-footer-navbar{
@@ -247,4 +244,22 @@ p.toc{
 .thesis-next:after{
     content: "";
     clear: both;
+}
+
+.thesis-img {
+    width: 100%;
+    position: relative;
+}
+
+.thesis-img img{
+    width: 100%;
+}
+
+.thesis-img-subtitle {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
 }
