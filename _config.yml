@@ -10,8 +10,8 @@ permalink:           pretty
 # About/contact
 author:
   name:              'Shanasia Sylman'
-  url:               'https://shanasia.github.io'
-  email:             'sgs237@cornell.edu'
+  url:               https://shanasia.github.io
+  email:             sgs237@cornell.edu
 
 # Gems
 plugins:
