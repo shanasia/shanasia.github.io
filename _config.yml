@@ -1,17 +1,17 @@
 # Setup
-title:               Shanasia Sylman
+title:               'Shanasia Sylman'
 tagline:             'Park Planner & PhD Candidate'
-description:         ''
-url:                 http://shanasia.github.io
-baseurl:             ''
+description:         'A pesronal website'
+url:                 https://shanasia.github.io
+baseurl:             /
 paginate:            5
 permalink:           pretty
 
 # About/contact
 author:
-  name:              Shanasia Sylman
-  url:               ''
-  email:             ''
+  name:              'Shanasia Sylman'
+  url:               'https://shanasia.github.io'
+  email:             'sgs237@cornell.edu'
 
 # Gems
 plugins:
