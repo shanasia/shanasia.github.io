@@ -3,6 +3,6 @@ layout: page
 title: CV
 ---
 
-#Research Interests
+# Research Interests
 
-#Education
+# Education
