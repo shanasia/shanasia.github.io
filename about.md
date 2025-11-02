@@ -3,27 +3,14 @@ layout: page
 title: About
 ---
 
+Hi there! My name is Shanasia Sylman (Sha-nay-Sha Sil-man), and I am currently pursuing my PhD at Cornell. I anticipate finishing my dissertation in the Spring of 2027. I am also a 2024-2026 NOAA Margaret A. Davidson Graduate Research Fellow at the [Tijuana River National Estuarine Research Reserve (TRNERR)](tijuanaestuary.org). 
+
+My research broadly focuses on how to address place-based harms within parks and protected areas. [More description to come!] 
+
+Prior to getting my PhD, I worked as an outdoor recreation planner for the National Park Service from 2018 to 2022. 
+
+When I am not reading, writing and researchin', I'm enjoying sitcoms, documentaries, news or horror movies. I aspire to get my yoga and mindfulness practices more consistent, and am always looking for new recipes to try. 
+
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Last Updated: 1 Nov 2025
 </p>
-
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
