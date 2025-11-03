@@ -28,4 +28,8 @@ _Description coming soon!_
 ---
 
 # Guest Lectures
+
+<p class="message">
+  Last Updated: 2 Nov 2025
+</p>
 ---
