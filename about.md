@@ -1,6 +1,6 @@
 ---
 layout: page
-title: __About__
+title: About
 ---
 
 Hi there! My name is Shanasia Sylman, and I am currently pursuing my PhD in City and Regional Planning at Cornell University. I anticipate finishing my dissertation in the Spring of 2027. I am also a 2024-2026 NOAA Margaret A. Davidson Graduate Research Fellow at the [Tijuana River National Estuarine Research Reserve (TRNERR)](https://tijuanaestuary.org/). 
